@@ -1,5 +1,3 @@
-PROJECT_NAME = "hello"
-
 begin
   require 'jeweler'
 rescue LoadError
@@ -7,15 +5,12 @@ rescue LoadError
 end
 
 Jeweler::Tasks.new do |gemspec|
-  gemspec.name = "#{PROJECT_NAME}"
+  gemspec.name = "hello-ruby-station"
   gemspec.summary = "Greets you"
   gemspec.email = "yutaka.hara/at/gmail.com"
   gemspec.homepage = ""
   gemspec.description = gemspec.summary
   gemspec.authors = ["Yutaka HARA"]
-#  gemspec.add_dependency('ramaze', '= 2009.05')
-#  gemspec.add_dependency('dm-core')
-#  gemspec.add_dependency('do_sqlite3')
-#  gemspec.files.concat Dir["public/biwascheme/lib/*"]
+  gemspec.add_dependency('sinatra')
 end
 
