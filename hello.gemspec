@@ -15,6 +15,7 @@ Gem::Specification.new do |s|
     "Rakefile",
      "VERSION",
      "bin/hello",
+     "hello.gemspec",
      "lib/hello.rb",
      "main.rb"
   ]
